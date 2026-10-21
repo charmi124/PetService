@@ -1,0 +1,178 @@
+body{
+	background-color:#f5e1cb;
+}
+
+footer {
+	background-color: #DBB489;
+ 	text-align: center;
+
+}
+
+
+h1{
+	
+	background-color:#DBB489;
+	text-align: center;
+	height: 400px;
+	
+}
+
+
+
+nav {
+
+	background-color: #997046;
+	
+}
+
+nav ul {list-style-type: none; padding-left: 0;}
+nav a {text-decoration: none; }
+
+
+.wrapper{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+h2{
+	
+	background-color:#DBB489;
+	text-align: center;
+	height: 50px;
+	
+}
+
+
+.herobox1 {
+		
+	background-color:#DBB489;
+	text-align: center;
+	height: 400px;
+	
+}
+	
+#peek {
+	margin-top: -398px;
+	
+
+}
+
+
+#bookings {
+	margin-left: 20px;
+	padding-left: 10px;
+	background-color:#DBB489;
+	width:280px;
+    height:330px;
+}
+
+.carousel-inner{
+	margin-left: 660px;
+	width:700px;
+	height:600px;
+	margin-bottom: 20px;
+	margin-top: -600px;
+}
+
+.lodging{
+	
+	text-align: right;
+	padding-left: 850px;
+	padding-right: 100px;
+}
+
+#spa {
+	margin-left: 20px;
+	padding-left: 10px;
+	background-color:#DBB489;
+	width:280px;
+    height:300px;
+}
+
+#col-sm-4 {
+	margin-left: 20px;
+	padding-left: 20px;
+}
+
+#station img {
+	width:450px;
+	height: 300px;
+    float: right;
+    margin-top: -50px;
+}
+
+
+#pitbull img{
+	width:450px;
+	height:300px;
+    margin-top: -300px;
+    margin-left: 500px
+}
+
+#chair img {
+	width:450px;
+	height: 300px;
+    margin-left: 350px;
+    margin-top: -430px;
+}
+
+.info {
+    background-color:#DBB489;
+	width:280px;
+    height:320px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+#george{
+    width:900px;
+}
+
+#tzu{
+   margin-top: -420px;
+    margin-left: 400px;
+}
+
+#thank{
+    margin-top: -250px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+}
+
+/* Media Queries */
+
+/* Tablet View */
+@media (max-width: 760px) {
+	
+	.wrapper {width: 760px}
+	.card1, .card2, .card3 {width: 46px;
+	min-height: 150px; margin: 10px}
+	header {flex-direction: column;}
+	header img {padding 30px;}
+	h1 {font-size: 2.5rem;}
+	h2 {font-size: 1.5rem;}
+	p {font-size: .75rem;}
+	.cards p {font-size: .75rem;}
+	body {margin:20px}
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+	
+	.wrapper {max-width: 400px}
+  .card1, .card2, .card3 {width: 100%;
+	min-height: 100px; margin: 10px}
+	.nav_botton {font-size: 1rem;
+	margin-top:80px}
+	header img {padding: 20px}
+	body {margin:40px}
+	
+
+
+
+
+
+
